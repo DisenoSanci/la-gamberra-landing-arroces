@@ -553,7 +553,7 @@ a {
    SECCIÓN 7 — DÓNDE Y CUÁNDO
 ═══════════════════════════════════════════ */
 .donde {
-  background-color: var(--color-bg-dark);
+  background-color: var(--color-bg);
   padding: 64px var(--padding-x);
   text-align: center;
 }
