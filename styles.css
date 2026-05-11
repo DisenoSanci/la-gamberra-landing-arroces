@@ -156,7 +156,7 @@ a {
 }
 
 .hero__cta-desktop {
-  display: none;
+  display: inline-flex;
 }
 
 .hero__scroll-hint {
@@ -493,6 +493,59 @@ a {
   font-size: 0.9rem;
   line-height: 1.55;
   opacity: 0.85;
+}
+
+
+/* ═══════════════════════════════════════════
+   SECCIÓN 6B — CÓMO DEVOLVER LA PAELLERA
+═══════════════════════════════════════════ */
+.paellera {
+  background-color: var(--color-bg-dark);
+  padding: 64px var(--padding-x);
+}
+
+.paellera__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.paellera__aviso {
+  font-family: var(--font-manuscrita);
+  color: var(--color-acento);
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.paellera__titulo {
+  font-family: var(--font-titular);
+  font-weight: 700;
+  color: var(--color-titulo);
+  font-size: clamp(1.8rem, 7vw, 2.8rem);
+  text-transform: none;
+  margin-bottom: 14px;
+}
+
+.paellera__intro {
+  font-family: var(--font-cuerpo);
+  font-style: italic;
+  color: var(--color-texto);
+  font-size: 1rem;
+  opacity: 0.75;
+  margin-bottom: 44px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pasos-grid--3 {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .pasos-grid--3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 
