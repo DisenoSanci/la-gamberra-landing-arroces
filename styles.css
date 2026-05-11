@@ -127,6 +127,10 @@ a {
   display: none;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 @media (max-width: 767px) {
   .hero__title-br {
     display: inline;
